@@ -2,7 +2,7 @@ const { connectDatabase } = require('./Database/databse')
 
 const app=require('express')()
 const mongoose =require('mongoose')()
-
+// Database connection function
 connectDatabase
 
 app.get('/about',(req,res)=>{
