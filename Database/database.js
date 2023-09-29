@@ -1,5 +1,5 @@
 
-const mongoose= require('mongoose')
+const mongoose= require("mongoose")
 exports.connectDatabase = async()=>{
 
     // connecting to database
